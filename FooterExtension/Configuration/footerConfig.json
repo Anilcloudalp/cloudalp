@@ -1,0 +1,121 @@
+{
+	"type": "object",
+    "subtab": {
+        "id": "footer",
+        "title": "footer",
+        "description": "footer related settings",
+        "group": "layout"
+    }
+,	"properties": {
+		"footer.notShow": {
+			"group": "layout",
+			"subtab": "footer"
+		,	"type": "boolean"
+		,	"title": "Hide catagory Selector"
+		,	"description": "Check this box to hide the currency selector in the application."
+		,	"default": false
+		}
+	,	"footer.logoUrl": {
+			"group": "layout",
+			"subtab": "footer"
+		,	"type": "string"
+		,	"title": "Logo URL"
+		,	"description": "Enter the URL location of the logo image file that is displayed at the top of the application."
+		,   "default":false
+		}
+		,
+		"footer.contentOne": {
+            "group": "layout",
+            "subtab": "footer",
+            "type": "array",
+            "title": "footer content 1",
+            "description": "footer editor declarations",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "title": "item field id",
+                        "description": "footer item field id, something like 'custitem31'"  
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "Name",
+                        "translate": true,
+                        "description": "Label for this footer 1 in the UI"
+                    },
+					"href":{
+						"type":"string",
+						"title":"href",
+						"description":"Enter the URL location for redirecting the path."
+					}
+
+
+				}			
+     
+			}
+		},
+		"footer.contentTwo": {
+            "group": "layout",
+            "subtab": "footer",
+            "type": "array",
+            "title": "footer content 2",
+            "description": "footer editor declarations",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "title": "item field id",
+                        "description": "footer item field id, something like 'custitem31'"  
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "Name",
+                        "translate": true,
+                        "description": "Label for this footer 1 in the UI"
+                    },
+					"href":{
+						"type":"string",
+						"title":"href",
+						"description":"Enter the URL location for redirecting the path."
+					}
+
+
+				}			
+     
+			}
+		},
+		"footer.contentThree": {
+            "group": "layout",
+            "subtab": "footer",
+            "type": "array",
+            "title": "footer content 1",
+            "description": "footer editor declarations",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "title": "item field id",
+                        "description": "footer item field id, something like 'custitem31'"  
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "Name",
+                        "translate": true,
+                        "description": "Label for this footer 1 in the UI"
+                    },
+					"href":{
+						"type":"string",
+						"title":"href",
+						"description":"Enter the URL location for redirecting the path."
+					}
+
+
+				}			
+     
+			}
+		}	
+	}
+}
